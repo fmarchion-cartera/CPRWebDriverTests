@@ -75,9 +75,9 @@ public class FAQPage_Test {
 
         //Verify 'Welcome back to Citi Price Rewind' text is visible
         if(driver.findElement(By.cssSelector("html#faq > body > div#cpr_content > div.cpr_grid.cpr_staticPage.cpr_faq > div.cpr_underlinedBlock > h1")).isDisplayed()){
-            System.out.println("Citi® Price Rewind FAQ is visible");
+            System.out.println("Citiï¿½ Price Rewind FAQ is visible");
         }else{
-            System.out.println("Citi® Price Rewind FAQ is NOT visible");
+            System.out.println("Citiï¿½ Price Rewind FAQ is NOT visible");
         }
 
         //Click the 'What is Citi Price Rewind?' link
