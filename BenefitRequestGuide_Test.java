@@ -22,7 +22,7 @@ import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
 
 /**
- * Created by frank.marchion on 6/8/2017.
+ * Created by frank.marchion on 6/8/2017. Test
  */
 public class BenefitRequestGuide_Test {
 
@@ -74,9 +74,9 @@ public class BenefitRequestGuide_Test {
 
         //Verify 'Guide to Citi Price Rewind Benefit' text is visible
         if (driver.findElement(By.cssSelector("html#guide > body > div#cpr_content > div.cpr_grid.cpr_staticPage.cpr_guide > div.cpr_HWblock:nth-of-type(1) > h1")).isDisplayed()) {
-            System.out.println("Guide to Citi® Price Rewind Benefit is visible");
+            System.out.println("Guide to Citiï¿½ Price Rewind Benefit is visible");
         } else {
-            System.out.println("Guide to Citi® Price Rewind Benefit is NOT visible");
+            System.out.println("Guide to Citiï¿½ Price Rewind Benefit is NOT visible");
         }
 
         //Verify 'Did you get the lowest price on your Citi card purchase? Let Citi Price Rewind search for you.' text is visible
