@@ -78,6 +78,11 @@ public class CancelTrack_Test {
 
         //Select the 'Still Tracking' status box
         CPRMyPriceRewinds.setStatus_StillTracking();
+        try {
+            Thread.sleep(2000);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
         assertEquals(driver.getCurrentUrl(), CitiPriceRewindMyPriceRewinds.STILL_TRACKING_URL);
 
         //Select the first track in the list

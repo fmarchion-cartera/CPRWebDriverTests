@@ -171,14 +171,14 @@ public class Homepage_Test {
         }
 
         //Verify 'Save up to $2,500 per year' text is visible
-        if(driver.findElement(By.cssSelector("html#home > body > div#cpr_content > div.cpr_messaging > div.cpr_grid > div.cpr_slick.cpr_focusable > div.cpr_messageTile_3 > h3")).isDisplayed()){
-            System.out.println("Save up to $2,500 per year text is visible");
-        }else{
-            System.out.println("Save up to $2,500 per year text is NOT visible");
-        }
+        //if(driver.findElement(By.cssSelector("html#home > body > div#cpr_content > div.cpr_messaging > div.cpr_grid > div.cpr_slick.cpr_focusable > div.cpr_messageTile_3 > h3")).isDisplayed()){
+         //   System.out.println("Save up to $2,500 per year text is visible");
+        //}else{
+        //    System.out.println("Save up to $2,500 per year text is NOT visible");
+        //}
 
         //Verify 'We do an extensive search' text is visible
-        if(driver.findElement(By.cssSelector("html#home > body > div#cpr_content > div.cpr_messaging > div.cpr_grid > div.cpr_slick.cpr_focusable > div.cpr_messageTile_4 > h3")).isDisplayed()){
+        if(driver.findElement(By.cssSelector("html#home > body > div#cpr_content > div.cpr_messaging > div.cpr_grid > div.cpr_slick.cpr_focusable > div.cpr_messageTile_3")).isDisplayed()){
             System.out.println("We do an extensive search text is visible");
         }else{
             System.out.println("We do an extensive search text is NOT visible");

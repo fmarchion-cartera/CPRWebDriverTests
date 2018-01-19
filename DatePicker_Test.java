@@ -187,7 +187,7 @@ public class DatePicker_Test {
         //assertTrue(driver.findElement(By.cssSelector("#cpr_SPR_price")).getText().contains("0.00"));
 
         //Enter date manually
-        StartPriceRewind.setText_Date_Field("10/9/17");
+        StartPriceRewind.setText_Date_Field("11/30/17");
 
         //Enter a store name
         StartPriceRewind.enter_Store_Name("Best Buy");
@@ -254,7 +254,7 @@ public class DatePicker_Test {
         //assertTrue(driver.findElement(By.cssSelector("#cpr_SPR_price")).getText().contains("0.00"));
 
         //Enter date manually
-        StartPriceRewind.setText_Date_Field("10/09/2017");
+        StartPriceRewind.setText_Date_Field("11/30/2017");
 
         //Enter a store name
         StartPriceRewind.enter_Store_Name("Best Buy");
@@ -321,7 +321,7 @@ public class DatePicker_Test {
         //assertTrue(driver.findElement(By.cssSelector("#cpr_SPR_price")).getText().contains("0.00"));
 
         //Enter date manually
-        StartPriceRewind.setText_Date_Field("10/9/17");
+        StartPriceRewind.setText_Date_Field("11/30/17");
 
         //Enter a store name
         StartPriceRewind.enter_Store_Name("Best Buy");
@@ -388,7 +388,7 @@ public class DatePicker_Test {
         //assertTrue(driver.findElement(By.cssSelector("#cpr_SPR_price")).getText().contains("0.00"));
 
         //Enter date manually
-        StartPriceRewind.setText_Date_Field("10/9/2017");
+        StartPriceRewind.setText_Date_Field("11/30/2017");
 
         //Enter a store name
         StartPriceRewind.enter_Store_Name("Best Buy");
